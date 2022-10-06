@@ -34,6 +34,14 @@ void display(void)
 	   head=head->next;
    }
 }
+void output(void)
+{
+   while(head !=NULL)
+   {
+	   printf("%d \n",head->data);
+	   head=head->next;
+   }
+}
 int main()
 {
 	setbuf(stdout,NULL);
