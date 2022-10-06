@@ -19,6 +19,12 @@ void insert_Linked_list(int value)
 
 }
 
+void delet_linked_list()
+{
+        struct node* temp=head;
+        head=head->next;
+        free(temp);
+}
 
 void display(void)
 {
